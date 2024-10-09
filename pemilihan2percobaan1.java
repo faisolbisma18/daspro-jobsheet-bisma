@@ -11,7 +11,9 @@ public class pemilihan2percobaan1 {
         System.out.println("\nInformasi yang dimasukkan:");
         System.out.println("Tahun: " + tahun);
 
-        if (tahun % 4 == 0 && (tahun % 100 != 0 || tahun % 400 == 0)) {
+        if (tahun % 4 == 0) {
+            if (tahun % 100 == 0)
+            if (tahun % 400 == 0)
             System.out.println("tahun kabisat");
         } else {
             System.out.println("bukan tahun kabisat");
